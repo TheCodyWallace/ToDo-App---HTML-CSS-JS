@@ -55,5 +55,3 @@ document.getElementById('task-list').addEventListener('click', function(event) {
         event.target.classList.toggle('completed');
     }
 });
-
-// This is a test comment

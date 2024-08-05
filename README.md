@@ -1,5 +1,11 @@
 # To-Do App - HTML, CSS, and JavaScript
 
+## Quick Look
+Visit the link below to see this app in action.
+
+https://thecodywallace.github.io/ToDo-App---HTML-CSS-JS/
+
+
 ## Description
 A simple to-do application built using HTML, CSS, and JavaScript. The application allows users to add, delete, and mark tasks as complete.
 

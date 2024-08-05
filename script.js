@@ -4,6 +4,18 @@ document.addEventListener('DOMContentLoaded', () => {
         event.preventDefault();
         addTask();
     });
+
+    // Add Seed Tasks
+    const seedTasks = [
+        "Review Cody's Resume",
+        "Schedule an interview with Cody"
+    ]
+    seedTasks.forEach(seedText => {
+        const input = document.getElementById('task-input');
+        input.value = seedText;
+        addTask();
+    })
+
 });
 
 function createTaskElement(text) {
